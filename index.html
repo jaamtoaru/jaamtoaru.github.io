@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="contaienr">
+        <h1>Get Table Data</h1>
+        <table id="tbl">
+            <col span="1">
+            <col span="1" class="col_hidden">
+            <col span="1">
+            <col span="1">
+            <col span="1">
+
+            <thead>
+                <tr>
+                    <th>Button</th>
+                    <th>Number</th>
+                    <th>Name</th>
+                    <th>Ward</th>
+                    <th>Tsukemono</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="tr">
+                    <td><button class="btn" type="button">ボタン</button></td>
+                    <td>1</td>
+                    <td>ネス</td>
+                    <td>東灘区</td>
+                    <td>キムチ</td>
+                </tr>
+                <tr class="tr">
+                    <td><button class="btn" type="button">ボタン</button></td>
+                    <td>2</td>
+                    <td>ポーラ</td>
+                    <td>灘区</td>
+                    <td>たくあん</td>
+                </tr>
+                <tr class="tr">
+                    <td><button class="btn" type="button">ボタン</button></td>
+                    <td>3</td>
+                    <td>ジェフ</td>
+                    <td>中央区</td>
+                    <td>奈良漬</td>
+                </tr>
+                <tr class="tr">
+                    <td><button class="btn" type="button">ボタン</button></td>
+                    <td>4</td>
+                    <td>プー</td>
+                    <td>北区</td>
+                    <td>千枚漬け</td>
+                </tr>
+                <tr class="tr">
+                    <td><button class="btn" type="button">ボタン</button></td>
+                    <td>5</td>
+                    <td>ポーキー</td>
+                    <td>西区</td>
+                    <td>ぬか漬け</td>
+                </tr>
+            </tbody>
+        </table>
+        <form action="" method="">
+            <div class="form__item">
+                <label for="number">No</label>
+                <input type="text" name="number" id="number">
+            </div>
+            <div class="form__item">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="form__item">
+                <label for="ward">Ward</label>
+                <input type="text" name="ward" id="ward">
+            </div>
+            <div class="form__item">
+                <label for="tsukemono">Tsukemono</label>
+                <input type="text" name="tsukemono" id="tsukemono">
+            </div>
+            <button type="submit">送信</button>
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
